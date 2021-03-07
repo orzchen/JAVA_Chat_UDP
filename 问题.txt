@@ -1,0 +1,12 @@
+1、UDP的实现
+2、布局的问题，使用Box来将面板垂直放入
+3、setPreferredSize和setSize的区别及用法
+4、JScrollPane和JPanel的组合使用问题
+5、列表空指向异常
+6、列表布局使用new BorderLayout()
+7、由于在设置变量的时候都使用了private封装，导致在改变Server GUI中的info的时候无法使用，使用getter和setter解决
+8、关于线程的结束，我无法实现通过按钮结束线程且GUI界面不结束
+9、关闭System.exit(0); // 关闭
+10、变量定义的顺序对代码的影响，如定义serverPort的时候，如果放在后面，会导致创建portPanel的时候为0，所以要放在第一位
+11、private static JTextArea inArea = new JTextArea(5,70); // static 引用问题
+12、如何显示在线列表
